@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS FORM UI - Styling Dropdown (select), checkbox and radio with css</title>
+    <link rel="stylesheet" href="formui.css"/>
+    <link rel="stylesheet" href="app.css"/>
+</head>
+<body>
+
+<header class="header">
+    <h1>SELECT COURSES</h1>
+</header>
+
+<div class="container">
+
+<div class="well-flat">
+    Available as CSS, and LESS files.
+</div>
+
+<form id="form-wrap">
+
+    <div class="row">
+        <p><strong>Dropdown</strong></p>
+        <div class="formui-dropdown">
+            <select>
+                <option>Select</option>
+                <option>PROGRAMMING</option>
+                <option>DEVELOPMENT</option>
+                <option>COMPETITIVE PROGRAMMING</option>
+                <option>ARTIFICIAL INTELLIGENCE</option>
+                <option>BLOCKCHAIN & CYBER SECURITY</option>
+            </select>
+        </div>
+    </div>
+
+<pre class="well">
+&lt;div class="formui-dropdown"&gt
+    &lt;select&gt;
+        &lt;option&gt;Select &lt;/option&gt;
+        &lt;option&gt;Option &lt;/option&gt;
+        &lt;option&gt;Option 2&lt;/option&gt;
+    &lt;/select&gt;
+&lt;/div&gt;
+</pre>
+
+    <div class="row">
+        <p><strong>Radio</strong></p>
+        <label class="formui-radio option checked">
+            <input type="radio" name="radio" value="a" checked/>Option a
+        </label>
+        <label class="formui-radio option">
+            <input type="radio" name="radio" value="b"/>
+            Option b
+        </label>
+    </div>
+
+<pre class="well">
+</pre>
+
+    <div class="row">
+    </div>
+
+<pre class="well">
+&lt;label class="formui-checkbox option"&gt;
+    &lt;input type="checkbox" name="checkbox[]" value="a"/&gt;
+    Option a
+&lt;/label&gt;
+
+&lt;label class="formui-checkbox option"&gt;
+    &lt;input type="checkbox" name="checkbox[]" value="b"/&gt;
+    Option b
+&lt;/label&gt;
+
+&lt;label class="formui-checkbox option"&gt;
+    &lt;input type="checkbox" name="checkbox[]" value="c"/&gt;
+    Option c
+&lt;/label&gt;
+</pre>
+
+
+    <p><strong>Text input</strong> - Roll your own</p>
+
+    <div class="row">
+        <label>Full name</label>
+        <input type="text" class="formui" value="" placeholder="Your full name" />
+    </div>
+    <div class="row">
+        <label>Password</label>
+        <input type="password" class="formui" value="" placeholder="Password" />
+    </div>
+    <div class="row">
+        <textarea class="formui" placeholder="About you"></textarea>
+    </div>
+
+</form>
+
+
+<div class="well-flat">
+</div>
+
+
+</div>
+
+
+
+
+<footer class="footer">
+<strong>CSS FORM UI</strong> by <a href="">Tanmay Dikshit</a> | Github<a href="http://github.com/tanmaytarush">/tanmaytarush</a>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<script src="formui.js"></script>
+
+</div>
+</body>
+</html>
